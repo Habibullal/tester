@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <title>AARTIFY: </title>
+</head>
+<body>
+    <div class="container bg-black flex">
+        <div class="left m-1">
+            <div class="home m-1 bg-grey rounded p-1">
+                <div class="logo flex"><img src="img/logo.svg" alt=""><h1>AARTIFY</h1></div>
+                <ul>
+                    <li><img class="invert" src="img/home.svg" alt="home">Home</li>
+                    <li><img class="invert" src="img/search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class="library m-1 p-1 rounded bg-grey">
+                <div class="heading flex">
+                    <img class="invert" src="img/playlist.svg" alt="">
+                    <h2>Your Playlist</h2>
+                </div>
+                <div class="playlistContainer flex">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="right bg-grey rounded">
+            <div class="header flex p-1">
+                <div class="nav invert">
+                    <img src="img/leftArrow.svg" alt="">
+                    <img src="img/rightArrow.svg" alt="">
+                </div>
+                <div class="buttons">
+                    <button class="signUp">Sign up</button>
+                    <button class="logIn">Log in</button>
+                    
+                </div>
+            </div>
+            <div class="playlistHeader flex">
+                
+            </div>
+            <div class="songsList bg-grey">
+                <ul>
+                    
+                </ul>
+            </div>
+            <div class="playbar">
+                <div class="flex aboveBar p-1 ">
+                    <div class="songInfo invert">
+                        
+                    </div>
+                    <div class="songButtons">
+                        <img id="previous" src="img/prevsong.svg" alt="previous">
+                        <img id="play" src="img/play.svg" alt="play">
+                        <img id="next" src="img/nextsong.svg" alt="next">
+                    </div>
+                    <div class="songTime invert">
+                        00:00/00:00
+                    </div>
+                    <div class="volumeContainer flex">
+                        <img id ="volume" src="img/volume.svg" alt="">
+                        <input class="volumeSlider" id="volSlider" type="range" name="volume" min="0" max="100" value="50">
+                    </div>
+                </div>
+                <div>
+                    <div class="seekBar">
+                        <div class="circle">
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
